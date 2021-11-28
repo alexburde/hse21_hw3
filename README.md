@@ -22,3 +22,30 @@
 # Объединяем файлы с прочтениями в один - all_counts (столбцы - образцы, при чем c1, c2, c3 - контрольные образцы; r1, r2, r3 - перепрограммированные образцы)
 ![image](https://user-images.githubusercontent.com/93148620/143722013-8addb18e-d593-48dd-9232-628e31849eb3.png)
 # Часть 2. Анализ с помощью DESeq2
+# MA-plot, показывающий Log2FC для генов
+Можно заметить, что большее количество дифференциально экспрессированных генов увеличило свою
+![image](https://user-images.githubusercontent.com/93148620/143723912-17bffe3a-97e3-4cd4-9551-17567061fc95.png)
+# Heatmap, показывающий созависимость экспрессии генов из контрольных и репрограммированных образцов
+Можно заметить, что экспрессия генов одинакова в одной группе образцов и отличается между группами
+![image](https://user-images.githubusercontent.com/93148620/143723933-1963e117-0597-42c6-951e-855c1699b2f7.png)
+# Heatmap для первых 20 наиболее дифференциально экспрессированных генов
+![image](https://user-images.githubusercontent.com/93148620/143723951-62f020b6-80b2-42a8-a6ff-79baa558ce08.png)
+# Графики со значениями "Normalized counts" в контрольных и перепрограммированных образцах
+(поиск генов производился сортировкой по L2FC - ноутбук в папке src)
+![image](https://user-images.githubusercontent.com/93148620/143723975-918a4953-5c58-4603-af02-137c08b384e3.png)
+
+![image](https://user-images.githubusercontent.com/93148620/143723981-b91d09ed-427b-4152-a70f-e77474089d02.png)
+
+![image](https://user-images.githubusercontent.com/93148620/143723986-7214b12e-d54b-479c-9fe4-151d5abb792b.png)
+
+![image](https://user-images.githubusercontent.com/93148620/143723995-98ce6222-ddb9-44ff-b71f-8522f2666f47.png)
+
+![image](https://user-images.githubusercontent.com/93148620/143724007-dd3dc269-ba3f-467b-9ede-a3dc0d670819.png)
+
+![image](https://user-images.githubusercontent.com/93148620/143724009-bf2d5b1c-6db8-488f-99d8-0a5f4ee2b9a8.png)
+
+![image](https://user-images.githubusercontent.com/93148620/143724021-9a583376-49fe-44ef-a577-938fa8fe32c1.png)
+
+![image](https://user-images.githubusercontent.com/93148620/143724024-19ccf9b0-59f0-4245-9fd9-b6a19aa25869.png)
+
+
