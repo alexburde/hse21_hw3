@@ -1,4 +1,7 @@
 # hse21_hw3
+Часть 1
+Ссылка на Google Colab:https://colab.research.google.com/drive/1K6YL589oU3wgxo6lMxtaNvEtOOPyhgbh?usp=sharing
+
 # Проверка качества чтений из fastQC: сравнительная статистика из multiQC
 ![image](https://user-images.githubusercontent.com/93148620/143721798-f0c93152-5c8a-458e-9e67-368a14d39010.png)
 ![image](https://user-images.githubusercontent.com/93148620/143721804-711cb668-cb23-4029-a4e4-d61c852e2025.png)
@@ -12,26 +15,26 @@
 # Количество уникально картированных чтений по каждому образцу:
 ![image](https://user-images.githubusercontent.com/93148620/143721936-299c91fa-f151-4800-933c-07e357b01b2e.png)
 ![image](https://user-images.githubusercontent.com/93148620/143721941-11c4b113-9e20-473a-b7f7-e138b8e7674e.png)
-# Смотрим статистику HTSeq и узнаем, количество чтений соответствует участкам генома, где не аннотировано ни одного экзона и количество чтений, которые могут принадлежать разным генам
+# Смотрим на статистику HTSeq и узнаем, какое количество чтений соответствует участкам генома, где не аннотировано ни одного экзона и количество чтений, которые могут принадлежать разным генам
 ![image](https://user-images.githubusercontent.com/93148620/143721964-75541aeb-af71-48ce-a1c1-841118557c44.png)
 ![image](https://user-images.githubusercontent.com/93148620/143721968-a549d3f7-258f-4feb-b47e-540ae660a97d.png)
 С помощью данных, приведенных выше, можно посчитать количество чтений, соответствующих хотя бы одному гену
 ![image](https://user-images.githubusercontent.com/93148620/143721984-232382bc-4c1d-4c01-966a-63c3cf74218e.png)
 ![image](https://user-images.githubusercontent.com/93148620/143721989-dc4c91c3-73e4-4ce4-8b37-c81c2f223b3b.png)
-# Наглядная статистика по каждому из 6 образцов
-# Объединяем файлы с прочтениями в один - all_counts (столбцы - образцы, при чем c1, c2, c3 - контрольные образцы; r1, r2, r3 - перепрограммированные образцы)
+# Статистика по каждому из 6 образцов
+![image](https://user-images.githubusercontent.com/93148620/143939751-b9c8642d-4cd7-4f1b-919d-9c2b987698ea.png)
+# Объединяем файлы с прочтениями в один - all_counts
 ![image](https://user-images.githubusercontent.com/93148620/143722013-8addb18e-d593-48dd-9232-628e31849eb3.png)
-# Часть 2. Анализ с помощью DESeq2
+
+Часть 2. Анализ с помощью DESeq2
+Ссылка на Google Colab: https://colab.research.google.com/drive/1Tp9VXBqHMTx6nkGiRuiEHuiCGlRELpce?usp=sharing
 # MA-plot, показывающий Log2FC для генов
-Можно заметить, что большее количество дифференциально экспрессированных генов увеличило свою
 ![image](https://user-images.githubusercontent.com/93148620/143723912-17bffe3a-97e3-4cd4-9551-17567061fc95.png)
-# Heatmap, показывающий созависимость экспрессии генов из контрольных и репрограммированных образцов
-Можно заметить, что экспрессия генов одинакова в одной группе образцов и отличается между группами
+# Heatmap, показывающий созависимость экспрессии генов из контрольных и перепрограммированных образцов
 ![image](https://user-images.githubusercontent.com/93148620/143723933-1963e117-0597-42c6-951e-855c1699b2f7.png)
 # Heatmap для первых 20 наиболее дифференциально экспрессированных генов
 ![image](https://user-images.githubusercontent.com/93148620/143723951-62f020b6-80b2-42a8-a6ff-79baa558ce08.png)
-# Графики со значениями "Normalized counts" в контрольных и перепрограммированных образцах
-(поиск генов производился сортировкой по L2FC - ноутбук в папке src)
+# Графики со значениями "Normalized counts" в контрольных и перепрограммированных образцах:
 ![image](https://user-images.githubusercontent.com/93148620/143723975-918a4953-5c58-4603-af02-137c08b384e3.png)
 
 ![image](https://user-images.githubusercontent.com/93148620/143723981-b91d09ed-427b-4152-a70f-e77474089d02.png)
