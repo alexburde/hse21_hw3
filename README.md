@@ -18,12 +18,12 @@
 # Смотрим на статистику HTSeq и узнаем, какое количество чтений соответствует участкам генома, где не аннотировано ни одного экзона и количество чтений, которые могут принадлежать разным генам
 ![image](https://user-images.githubusercontent.com/93148620/143721964-75541aeb-af71-48ce-a1c1-841118557c44.png)
 ![image](https://user-images.githubusercontent.com/93148620/143721968-a549d3f7-258f-4feb-b47e-540ae660a97d.png)
-# С помощью данных, приведенных выше, можно посчитать количество чтений, соответствующих хотя бы одному гену
+# Считаем количество чтений, соответствующих хотя бы одному гену
 ![image](https://user-images.githubusercontent.com/93148620/143721984-232382bc-4c1d-4c01-966a-63c3cf74218e.png)
 ![image](https://user-images.githubusercontent.com/93148620/143721989-dc4c91c3-73e4-4ce4-8b37-c81c2f223b3b.png)
 # Статистика по каждому из 6 образцов
 ![image](https://user-images.githubusercontent.com/93148620/143939751-b9c8642d-4cd7-4f1b-919d-9c2b987698ea.png)
-# Объединяем файлы с прочтениями в один - all_counts
+# Объединение файлов с прочтениями в один - all_counts
 ![image](https://user-images.githubusercontent.com/93148620/143722013-8addb18e-d593-48dd-9232-628e31849eb3.png)
 
 # Часть 2. Анализ с помощью DESeq2
