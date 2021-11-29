@@ -1,5 +1,5 @@
 # hse21_hw3
-Часть 1
+# Часть 1
 Ссылка на Google Colab:https://colab.research.google.com/drive/1K6YL589oU3wgxo6lMxtaNvEtOOPyhgbh?usp=sharing
 
 # Проверка качества чтений из fastQC: сравнительная статистика из multiQC
@@ -26,7 +26,7 @@
 # Объединяем файлы с прочтениями в один - all_counts
 ![image](https://user-images.githubusercontent.com/93148620/143722013-8addb18e-d593-48dd-9232-628e31849eb3.png)
 
-Часть 2. Анализ с помощью DESeq2
+# Часть 2. Анализ с помощью DESeq2
 Ссылка на Google Colab: https://colab.research.google.com/drive/1Tp9VXBqHMTx6nkGiRuiEHuiCGlRELpce?usp=sharing
 # MA-plot, показывающий Log2FC для генов
 ![image](https://user-images.githubusercontent.com/93148620/143723912-17bffe3a-97e3-4cd4-9551-17567061fc95.png)
